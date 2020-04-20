@@ -1,0 +1,102 @@
+Name:Sultan Alghamdi
+Date:15th April 2020
+Class code: D18126659
+Assignment Name:Machine learning model, using Naïve Baye
+Assignment Description: The Assignment asked us to make a program that would learn over
+time to calculate the probability of a user having COVID-19 from a set of values
+given to us on an Excel sheet without hardcoding any value into the Java projects.
+
+Video Link - https://youtu.be/0tP6pd5TcI0
+
+
+Classes - User Input
+-----------------------------------------------------------------------
+User_Inputs
+This class is just initilizing the variables for each part of the user input
+
+Panels
+Creating the main panel that everything gets put on
+
+titles
+Set the title values for each section of the panel
+
+Temperature
+Sets the temperature variables and the radio button positions of it
+
+Ache
+Sets the Ache variables and the radio button positions of it
+
+Cough
+Sets the cough variables and the radio button positions of it
+
+Sore
+Sets the sore variables and the radio button positions of it
+
+Travel
+Sets the travel variables and the radio button positions of it
+
+button
+Puts the position of the button to that panel and sets in in the middle
+
+
+Classes - Excel_Sheet
+-----------------------------------------------------------------------
+
+Excel_Sheets
+This class opens up the Excel sheet and reads in the variables setting 
+them all to lower case values for the program to read it in easier,It 
+also returns the variables to the excel array.
+
+Classes - 
+-----------------------------------------------------------------------
+Excel_Array
+This class sets all the array values and creates the hashmap values
+
+setHashmap
+This class sets the variables of the hashmap to to a String, Double for each e.g. Temppos and tempNeg
+
+HashmapValues
+This array tells the user the size of the array for Excel_Sheet.
+It also tells the user wheither the the values they put in match the values of the excel sheet/ It also compares to see if it is correct or not
+
+Results
+Tells the user if the they are Positive or Negative values for the output on CoronaTest
+
+Classes - CoronaTest
+-----------------------------------------------------------------------
+
+CoronaTest
+This class opens the second has gui for the user to tell them the results of their input values of the Covid_19 test
+it also has a button to go back on the program this allows the users to take as many tests are they need for the amount of people in the program
+
+Classes - Gui
+-----------------------------------------------------------------------
+Gui
+This class just sets the variables for the main gui, it opens the JFrame and sets all the dimentions of the program, It also centers the application to the middle of the screen
+
+Classes - Control
+-----------------------------------------------------------------------
+
+Control
+The only use for this program is to launch the application for the User
+
+
+
+Application Workings;
+The application works by  the user pressing on the JRadio buttons on which simtimutes he/she has this gets put in to an array that compares it to the values of the Excel Sheet
+and this allows it to see if the user has a match for any of the data sets that are in the Excel Sheet and tell them if they are positive or negative for Covid 19
+
+If i had more time in the application i would add a feature to add more values in to the program by allowing users to add more values in to the Excel_Sheet from the Gui program
+I would also try to make the application more fluid.
+
+
+
+
+
+
+
+
+
+
+
+
